@@ -1,0 +1,49 @@
+{
+  "groups": {
+    "config": {
+      "dir": "/src/config",
+      "data": {
+        "type": "object"
+      }
+    },
+    "commons": {
+      "dir": "/src/common",
+      "data": {
+        "type": "object"
+      }
+    },
+    "express": {
+      "dir": "/src/express",
+      "data": {
+        "type": "function"
+      }
+    },
+    "models": {
+      "dir": "/src/model",
+      "data": {
+        "type": "function"
+      }
+    },
+    "services": {
+      "dir": "/src/services",
+      "data": {
+        "type": "class",
+        "initiate": "singleton"
+      }
+    },
+    "routes": {
+      "dir": "/src/routes",
+      "data": {
+        "type": "function"
+      }
+    }
+  },
+  "npm": {},
+  "node": {},
+  "modules": {
+    "app": {
+      "module": "/src/app",
+      "type": "function"
+    }
+  }
+}

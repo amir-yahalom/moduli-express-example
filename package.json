@@ -1,0 +1,52 @@
+{
+  "name": "moduli-express-example",
+  "version": "1.0.0",
+  "description": "An example project (express starter app), implemented with moduli",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/*.spec.js",
+    "start": "node main"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "^4.13.4",
+    "hbs": "~4.0.0",
+    "moduli": "^1.0.2",
+    "mongoose": "^4.4.19",
+    "morgan": "~1.7.0",
+    "q": "^1.4.1",
+    "serve-favicon": "~2.3.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.0",
+    "mockgoose": "^6.0.8",
+    "sinon": "^1.17.6",
+    "supertest": "^2.0.1"
+  },
+  "keywords": [
+    "moduli",
+    "express",
+    "socket.io",
+    "example",
+    "ioc",
+    "dependency injection"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/amir-yahalom/moduli-express-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amir-yahalom/moduli-express-example/issues"
+  },
+  "homepage": "https://github.com/amir-yahalom/moduli-express-example#readme",
+  "author": "Amir Yahalom <amir.ayd@gmail.com>",
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ]
+}

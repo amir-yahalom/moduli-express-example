@@ -1,0 +1,4 @@
+{
+  "MONGO_URL": "mongodb://localhost/moduli_example",
+  "PORT": 5000
+}
